@@ -1,6 +1,13 @@
-# README for PETMcGENIE_DA Dataset
+# PETMcGENIE_DA Dataset
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13779050.svg)](https://doi.org/10.5281/zenodo.13779050)
+
 
 This README describes the contents and structure of the **PETMcGENIE_DA.nc** NetCDF file, which contains variables related to atmospheric and oceanic conditions during the Paleocene-Eocene Thermal Maximum (PETM). The dataset includes both mean values and variances for several important geochemical and environmental parameters.
+
+## Supporting Information
+
+This dataset supports the findings presented in **Li et al., 2024 Nature Geoscience**. The study investigates the dramatic shifts in ocean chemistry during the Paleocene-Eocene Thermal Maximum (PETM), a rapid climate event 56 million years ago marked by extensive carbon release and ocean acidification. The dataset is instrumental in understanding the geochemical and environmental changes during this period.
 
 ## Variables
 
@@ -48,10 +55,6 @@ The dataset includes a time dimension `t` with two distinct time points, represe
 
 - **`Latitude (lat)`**: The latitude dimension consists of 36 grid points and is expressed in degrees.
 - **`Longitude (lon)`**: The longitude dimension consists of 36 grid points and is expressed in degrees.
-
-## Supporting Information
-
-This dataset supports the findings presented in **Li et al., 2024 Nature Geoscience**. The study investigates the dramatic shifts in ocean chemistry during the Paleocene-Eocene Thermal Maximum (PETM), a rapid climate event 56 million years ago marked by extensive carbon release and ocean acidification. The dataset is instrumental in understanding the geochemical and environmental changes during this period.
 
 ## Scripts for Generating This Dataset
 
